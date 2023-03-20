@@ -5,7 +5,7 @@ export default component$(() => {
 	return (
 		<div class="max-w-md flex justify-between flex-col gap-8 p-8">
 			<div class="mb-4">
-				<img src="/logo.png" class="mx-auto w-32" alt="" />
+				<img src="/logov.png" class="mx-auto h-32" alt="" />
 			</div>
 			<div class="links">
 				<a href="https://wa.me/5588992637940" class="link link-primary">
@@ -13,10 +13,16 @@ export default component$(() => {
 				</a>
 
 				<a href="" class="link">
-					Conheça nossas especialidades
+					<span class="hidden md:block">
+						Conheça nossas especialidades
+					</span>
+					<span class=" md:hidden">Nossas especialidades</span>
 				</a>
 				<a href="" class="link">
-					Quero falar sobre um exame que eu fiz
+					<span class="hidden md:block">
+						Quero falar sobre um exame que eu fiz
+					</span>
+					<span class="md:hidden">Falar sobre exames</span>
 				</a>
 			</div>
 			<div>
@@ -34,11 +40,11 @@ export default component$(() => {
 });
 
 export const head: DocumentHead = {
-	title: "Fome de Toro",
+	title: "SMARTMED - Especialista em você",
 	meta: [
 		{
 			name: "description",
-			content: "Faça seu pedido pelo nosso WhatsApp",
+			content: "A primeira Clínica de Especialidades Médicas de Massapê",
 		},
 	],
 };

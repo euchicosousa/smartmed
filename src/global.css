@@ -11,7 +11,7 @@ body {
 }
 
 .link {
-	@apply flex px-6 py-5 rounded-xl bg-white text-black font-medium tracking-tight text-xl text-center;
+	@apply flex px-6 py-5 rounded-xl bg-white text-black font-medium tracking-tight text-xl text-center justify-center;
 }
 
 .link-primary {
