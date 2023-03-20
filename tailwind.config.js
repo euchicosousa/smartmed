@@ -6,7 +6,7 @@ module.exports = {
 			colors: {
 				brand: "#4e4993",
 				accent: "#a3bd31",
-				support: "#e5e4e2",
+				support: "#fff",
 			},
 		},
 	},

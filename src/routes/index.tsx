@@ -8,7 +8,7 @@ export default component$(() => {
 				<img src="/logov.png" class="mx-auto h-32" alt="" />
 			</div>
 			<div class="links">
-				<a href="https://wa.me/5588992637940" class="link link-primary">
+				<a href="https://wa.me/5588997925279" class="link link-primary">
 					Agende sua consulta
 				</a>
 
