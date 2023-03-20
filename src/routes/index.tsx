@@ -25,9 +25,9 @@ export default component$(() => {
 					<span class="md:hidden">Falar sobre exames</span>
 				</a>
 			</div>
-			<div>
+			{/* <div>
 				<img src="/toro.png" class="w-16 mx-auto" alt="" />
-			</div>
+			</div> */}
 			<div class="font-bold text-center">
 				smartmed -{" "}
 				<span class="uppercase text-xs  tracking-widest font-medium">
