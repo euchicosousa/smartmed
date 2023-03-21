@@ -8,17 +8,23 @@ export default component$(() => {
 				<img src="/logov.png" class="mx-auto h-32" alt="" />
 			</div>
 			<div class="links">
-				<a href="https://wa.me/5588997925279" class="link link-primary">
+				<a
+					href="https://wa.me/5588997925279?text=Gostaria de agendar uma consulta."
+					class="link link-primary"
+				>
 					Agende sua consulta
 				</a>
 
-				<a href="" class="link">
+				<a href="https://instagram.com/smartmed_ceara" class="link">
 					<span class="hidden md:block">
 						Conheça nossas especialidades
 					</span>
 					<span class=" md:hidden">Nossas especialidades</span>
 				</a>
-				<a href="" class="link">
+				<a
+					href="https://wa.me/5588997925279?text=Quero falar sobre exames."
+					class="link"
+				>
 					<span class="hidden md:block">
 						Quero falar sobre um exame que eu fiz
 					</span>
