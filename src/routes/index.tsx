@@ -8,10 +8,7 @@ export default component$(() => {
 				<img src="/logov.png" class="mx-auto h-32" alt="" />
 			</div>
 			<div class="links">
-				<a
-					href="https://wa.me/5588997925279?text=Gostaria de agendar uma consulta."
-					class="link link-primary"
-				>
+				<a href="/whatsapp" class="link link-primary">
 					Agende sua consulta
 				</a>
 
