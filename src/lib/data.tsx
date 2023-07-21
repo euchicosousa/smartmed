@@ -17,7 +17,7 @@ export const especialidades = [
 	{
 		id: 4,
 		title: "Ultrassonografia",
-		text: "Quero marcar uma  Ultrassonografia.",
+		text: "Quero marcar uma Ultrassonografia.",
 	},
 	{
 		id: 5,
@@ -27,7 +27,7 @@ export const especialidades = [
 	{
 		id: 6,
 		title: "Psicologia",
-		text: "Quero marcar um horário com a Psicológa.",
+		text: "Quero marcar um horário com a Psicóloga.",
 	},
 	{
 		id: 7,
@@ -37,7 +37,7 @@ export const especialidades = [
 	{
 		id: 8,
 		title: "Nutrição Infantil",
-		text: "Quero marcar uma consulta com a Nutricionista Materno Infantil.",
+		text: "Quero marcar uma consulta com a Nutricionista Materno-infantil.",
 	},
 	{
 		id: 9,
