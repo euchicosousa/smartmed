@@ -1,5 +1,6 @@
 import { component$ } from "@builder.io/qwik";
 import type { DocumentHead } from "@builder.io/qwik-city";
+import { especialidades } from "~/lib/data";
 
 export default component$(() => {
 	return (
@@ -12,83 +13,16 @@ export default component$(() => {
 					Agende sua consulta
 				</a>
 
-				<div class="grid grid-cols-2 gap-2">
-					<a
-						class="small-link"
-						href={`/whatsapp?especialista=${encodeURI(
-							"Oftalmologia"
-						)}`}
-					>
-						Oftalmologia
-					</a>
-					<a
-						class="small-link"
-						href={`/whatsapp?especialista=${encodeURI(
-							"Ginecologia"
-						)}`}
-					>
-						Ginecologia
-					</a>
-					<a
-						class="small-link"
-						href={`/whatsapp?especialista=${encodeURI(
-							"Pediatria"
-						)}`}
-					>
-						Pediatria
-					</a>
-					<a
-						class="small-link"
-						href={`/whatsapp?especialista=${encodeURI(
-							"Ultrassonografia"
-						)}`}
-					>
-						Ultrassonografia
-					</a>
-					<a
-						class="small-link"
-						href={`/whatsapp?especialista=${encodeURI(
-							"Clínica Geral"
-						)}`}
-					>
-						Clínica Geral
-					</a>
-					<a
-						class="small-link"
-						href={`/whatsapp?especialista=${encodeURI(
-							"Psicologia"
-						)}`}
-					>
-						Psicologia
-					</a>
-					<a
-						class="small-link"
-						href={`/whatsapp?especialista=${encodeURI("Nutrição")}`}
-					>
-						Nutrição
-					</a>
-					<a
-						class="small-link"
-						href={`/whatsapp?especialista=${encodeURI(
-							"Nutrição Infantil"
-						)}`}
-					>
-						Nutrição Infantil
-					</a>
-					<a
-						class="small-link"
-						href={`/whatsapp?especialista=${encodeURI(
-							"Neurologia"
-						)}`}
-					>
-						Neurologia
-					</a>
-					<a
-						class="small-link"
-						href={`/whatsapp?especialista=${encodeURI("Exames")}`}
-					>
-						Exames
-					</a>
+				<div class="grid grid-cols-2 gap-2 mb-4">
+					{especialidades.map((especialidade) => (
+						<a
+							class="small-link"
+							href={`/whatsapp?especialista=${especialidade.id}`}
+							key={especialidade.id}
+						>
+							{especialidade.title}
+						</a>
+					))}
 				</div>
 
 				<a href="https://instagram.com/smartmed_ceara" class="link">
