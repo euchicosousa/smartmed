@@ -10,6 +10,10 @@ body {
 	@apply flex flex-col gap-2;
 }
 
+.small-link {
+	@apply px-4 py-2 bg-black/25 rounded-lg text-center active:bg-black/50;
+}
+
 .link {
 	@apply flex px-6 py-5 rounded-xl bg-white text-black font-medium tracking-tight text-xl text-center justify-center;
 }
