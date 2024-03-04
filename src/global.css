@@ -11,7 +11,7 @@ body {
 }
 
 .small-link {
-	@apply px-4 py-2 bg-white/5 rounded-lg text-center active:bg-white/25;
+	@apply px-4 py-3 leading-tight bg-black/20 rounded-lg text-center active:bg-white/25 font-medium items-center flex justify-center;
 }
 
 .link {

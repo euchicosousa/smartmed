@@ -36,13 +36,23 @@ export const especialidades = [
 	},
 	{
 		id: 8,
-		title: "Nutrição Infantil",
-		text: "Quero marcar uma consulta com a Nutricionista Materno-infantil.",
+		title: "Dermatologia",
+		text: "Quero marcar uma consulta com o Dermatologista.",
 	},
 	{
 		id: 9,
-		title: "Neurologia",
+		title: "Consulta Cardiológica",
 		text: "Quero marcar uma consulta Neurológica.",
 	},
-	{ id: 10, title: "Exames", text: "Quero marcar um Exame." },
+	{
+		id: 9,
+		title: "Ecocardiograma",
+		text: "Quero marcar uma consulta Neurológica.",
+	},
+	{
+		id: 9,
+		title: "Eletrocardiograma",
+		text: "Quero marcar uma consulta Neurológica.",
+	},
+
 ];
