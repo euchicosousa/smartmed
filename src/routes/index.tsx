@@ -9,9 +9,17 @@ export default component$(() => {
 				<img src="/logov.png" class="mx-auto h-32" alt="" />
 			</div>
 			<div class="links">
+				<div class={"p-2 text-center pb-0 font-bold"}>NOVIDADE</div>
 				<a href="/whatsapp" class="link link-primary">
-					Agende sua consulta
+					Agende seus exames laboratoriais
 				</a>
+				{/* <a href="/whatsapp" class="link">
+					Agende sua consulta
+				</a> */}
+				<div class={"p-2 text-center leading-none font-bold"}>
+					Agende sua consulta com um <br /> dos nossos especialistas
+					abaixo:
+				</div>
 
 				<div class="grid grid-cols-2 gap-2 mb-4">
 					{especialidades.map((especialidade) => (
@@ -27,7 +35,7 @@ export default component$(() => {
 
 				<a href="https://instagram.com/smartmed_ceara" class="link">
 					<span class="hidden md:block">Conheça nossos médicos</span>
-					<span class=" md:hidden">Nossas especialidades</span>
+					<span class="md:hidden">Especialistas</span>
 				</a>
 				<a
 					href="https://wa.me/5588997925279?text=Quero falar sobre exames."
@@ -39,9 +47,7 @@ export default component$(() => {
 					<span class="md:hidden">Falar sobre exames</span>
 				</a>
 			</div>
-			{/* <div>
-				<img src="/toro.png" class="w-16 mx-auto" alt="" />
-			</div> */}
+
 			<div class="font-bold text-center">
 				smartmed -{" "}
 				<span class="uppercase text-xs  tracking-widest font-medium">

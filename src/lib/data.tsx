@@ -14,15 +14,43 @@ export const especialidades = [
 		title: "Pediatria",
 		text: "Quero marcar uma consulta Pediátrica.",
 	},
+	
+	{
+		id: 5,
+		title: "Clínica Geral",
+		text: "Quero marcar uma consulta com um Clínico Geral.",
+	},
+	
+	{
+		id: 8,
+		title: "Dermatologia",
+		text: "Quero marcar uma consulta com o Dermatologista.",
+	},
+	{
+		id: 9,
+		title: "Consulta Cardiológica",
+		text: "Quero marcar uma consulta Cardiológica.",
+	},
+	
+	{
+		id: 12,
+		title: "Psiquiatria",
+		text: "Quero marcar uma consulta Neurológica.",
+	},
 	{
 		id: 4,
 		title: "Ultrassonografia",
 		text: "Quero marcar uma Ultrassonografia.",
 	},
 	{
-		id: 5,
-		title: "Clínica Geral",
-		text: "Quero marcar uma consulta com um Clínico Geral.",
+		id: 10,
+		title: "Ecocardiograma",
+		text: "Quero marcar um ECOCARDIOGRAMA.",
+	},
+	{
+		id: 11,
+		title: "Eletrocardiograma",
+		text: "Quero marcar um ELETROCARDIOGRAMA.",
 	},
 	{
 		id: 6,
@@ -33,26 +61,6 @@ export const especialidades = [
 		id: 7,
 		title: "Nutrição",
 		text: "Quero marcar uma consulta com a Nutricionista.",
-	},
-	{
-		id: 8,
-		title: "Dermatologia",
-		text: "Quero marcar uma consulta com o Dermatologista.",
-	},
-	{
-		id: 9,
-		title: "Consulta Cardiológica",
-		text: "Quero marcar uma consulta Neurológica.",
-	},
-	{
-		id: 9,
-		title: "Ecocardiograma",
-		text: "Quero marcar uma consulta Neurológica.",
-	},
-	{
-		id: 9,
-		title: "Eletrocardiograma",
-		text: "Quero marcar uma consulta Neurológica.",
 	},
 
 ];
