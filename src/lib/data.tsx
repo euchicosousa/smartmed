@@ -6,8 +6,8 @@ export const especialidades = [
 	},
 	{
 		id: 2,
-		title: "Ginecologia",
-		text: "Quero marcar uma consulta Ginecológica.",
+		title: "Psi. Autista",
+		text: "Quero marcar um horário com o Psicólogo para uma criança autista.",
 	},
 	{
 		id: 3,
@@ -28,7 +28,7 @@ export const especialidades = [
 	},
 	{
 		id: 9,
-		title: "Consulta Cardiológica",
+		title: "Consulta Cardio",
 		text: "Quero marcar uma consulta Cardiológica.",
 	},
 	

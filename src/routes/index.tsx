@@ -9,13 +9,10 @@ export default component$(() => {
 				<img src="/logov.png" class="mx-auto h-32" alt="" />
 			</div>
 			<div class="links">
-				<div class={"p-2 text-center pb-0 font-bold"}>NOVIDADE</div>
 				<a href="/whatsapp" class="link link-primary">
-					Agende seus exames laboratoriais
-				</a>
-				{/* <a href="/whatsapp" class="link">
 					Agende sua consulta
-				</a> */}
+				</a>
+
 				<div class={"p-2 text-center leading-none font-bold"}>
 					Agende sua consulta com um <br /> dos nossos especialistas
 					abaixo:
@@ -33,11 +30,17 @@ export default component$(() => {
 					))}
 				</div>
 
-				<a href="https://instagram.com/smartmed_ceara" class="link">
+				<div class={"p-2 text-center pb-0 font-bold"}>NOVIDADE</div>
+				<a href="/whatsapp" class="link ">
+					Agende seus exames laboratoriais
+				</a>
+
+				<a href="https://instagram.com/smartmed_massape" class="link">
 					<span class="hidden md:block">Conheça nossos médicos</span>
 					<span class="md:hidden">Especialistas</span>
 				</a>
-				<a
+
+				{/* <a
 					href="https://wa.me/5588997925279?text=Quero falar sobre exames."
 					class="link"
 				>
@@ -45,7 +48,7 @@ export default component$(() => {
 						Quero falar sobre um exame que eu fiz
 					</span>
 					<span class="md:hidden">Falar sobre exames</span>
-				</a>
+				</a> */}
 			</div>
 
 			<div class="font-bold text-center">
