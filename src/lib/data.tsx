@@ -10,6 +10,11 @@ export const especialidades = [
     text: 'Quero marcar um horário Oftalmológica para o meu filho.'
   },
   {
+    id: 7,
+    title: 'Nutrição',
+    text: 'Quero marcar uma consulta com a Nutricionista.'
+  },
+  {
     id: 3,
     title: 'Pediatria',
     text: 'Quero marcar uma consulta Pediátrica.'
@@ -29,31 +34,27 @@ export const especialidades = [
     title: 'Psicologia',
     text: 'Quero marcar um horário com a Psicóloga.'
   },
-  {
-    id: 7,
-    title: 'Nutrição',
-    text: 'Quero marcar uma consulta com a Nutricionista.'
-  },
-  {
-    id: 8,
-    title: 'Dermatologia',
-    text: 'Quero marcar uma consulta com o Dermatologista.'
-  },
-  {
-    id: 9,
-    title: 'Consulta Cardio',
-    text: 'Quero marcar uma consulta Cardiológica.'
-  },
-  {
-    id: 10,
-    title: 'Ecocardiograma',
-    text: 'Quero marcar um ECOCARDIOGRAMA.'
-  },
-  {
-    id: 11,
-    title: 'Eletrocardiograma',
-    text: 'Quero marcar um ELETROCARDIOGRAMA.'
-  },
+  
+  // {
+  //   id: 8,
+  //   title: 'Dermatologia',
+  //   text: 'Quero marcar uma consulta com o Dermatologista.'
+  // },
+  // {
+  //   id: 9,
+  //   title: 'Consulta Cardio',
+  //   text: 'Quero marcar uma consulta Cardiológica.'
+  // },
+  // {
+  //   id: 10,
+  //   title: 'Ecocardiograma',
+  //   text: 'Quero marcar um ECOCARDIOGRAMA.'
+  // },
+  // {
+  //   id: 11,
+  //   title: 'Eletrocardiograma',
+  //   text: 'Quero marcar um ELETROCARDIOGRAMA.'
+  // },
   {
     id: 12,
     title: 'Psiquiatria',
